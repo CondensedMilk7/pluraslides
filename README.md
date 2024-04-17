@@ -13,5 +13,5 @@ npm run build
 run a single project in watch mode:
 
 ```sh
-npm run start -- slides/presentation-1/slides.md
+npm run slidev -- slides/presentation-1/slides.md
 ```
