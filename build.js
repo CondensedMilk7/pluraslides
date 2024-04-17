@@ -29,7 +29,7 @@ fs.writeFileSync(
 );
 
 if (BUILD_CONFIG.favicon) {
-  fs.cpSync("favicon.ico", path.join(BUILD_CONFIG.outputDir, "favicon.ico"));
+  fs.cpSync(BUILD_CONFIG.favicon, path.join(BUILD_CONFIG.outputDir, BUILD_CONFIG.favicon));
 }
 
 entries.forEach((entry) => {
