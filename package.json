@@ -1,0 +1,17 @@
+{
+  "name": "tech-slides",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "node build.js",
+    "start": "slidev"
+  },
+  "author": "Pridon Tetradze",
+  "license": "ISC",
+  "devDependencies": {
+    "@slidev/cli": "^0.49.0-beta.2",
+    "@slidev/theme-default": "^0.25.0",
+    "@slidev/theme-seriph": "^0.25.0"
+  }
+}
